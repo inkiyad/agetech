@@ -181,7 +181,7 @@ h1 {
 		transform: translate(-50%, 60px);
 	}
 	
-	
+
 	.bg-text, .container1, .container2 {
 		width: 65%;
 	}
@@ -210,6 +210,6 @@ h1 {
 		width: 80%;
 	}
 	.text {
-		transform: translate(0%, -90px);;
+		transform: translate(0%, -100px);
 	}
 }
