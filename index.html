@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head> 
+	<title>AgeTecg</title>
+	<link rel="icon" type="image/png" href="img/logo.jpg">
+    <meta charset="UTF-8">
+    <meta name="description" content="Homepage">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Gazi Inkiyad">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<script>
+	document.addEventListener("touchstart", function() {}, false);
+	</script>
+</head>
+<body>
+		<div onclick="location.href='login.html';" class="container1">
+		<h2>I am a caregiver</h2>
+		</div>
+		<div onclick="location.href='login.html';" class="container2" onMouseEnter="mouse()" onMouseOut="out()">
+		<h2>I am a care reciever</h2>
+	</div>
+	<div class="bg-image">
+		<div id="bg-image2"></div>
+	</div>
+    <div class="bg-text">
+		<div class="sm-image">
+			<img src="img/logo.jpg" alt="logo pic" style="width:140px">
+		</div>
+		<div class="texts">
+			<h1 style="font-size:30px">Welcome to AgeTech</h1>
+		</div>
+	</div>
+</body>
+<!--script type="text/javascript">
+	var m;
+	
+	// document.getElementsByClassName("container2")[0].addEventListener("onmouseover", over()); 
+	// document.getElementsByClassName("container2")[0].addEventListener("onmouseover", out(), true);
+	
+	/*function over(){
+				var ii = 0;
+				var slide = document.getElementById("bg-image2");
+				 for (; ii<Math.floor(2 / 3 * screen.availWidth); ii++){
+					(function(ii) {
+						setTimeout(function(){
+							slide.style.left = ii + 'px';
+						}, 2.5*ii);
+					})(ii);
+				} 
+
+				setTimeout(function right2left() {
+				var k = 0;
+				for (; k<Math.floor(screen.availWidth / 2.5); k++){
+					(function(k) {
+						setTimeout(function(){
+							slide.style.left = ii - k + 'px';
+							var l = ii - k; return l;
+						}, 3*k);
+					})(k);				
+				}
+			}, 3000);
+		}
+	
+	/*function leave(){
+		initial = new time
+	}*/
+	
+	function mouse(){
+		m = setTimeout(over, 1500);
+	}
+
+	function out(){
+		clearTimeout(m);
+		// document.getElementById("bg-image2").style.left = 0 + 'px';
+	}
+
+	<--/script>
+	
