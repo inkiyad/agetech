@@ -209,4 +209,7 @@ h1 {
 	.bg-text, .container1, .container2 {
 		width: 80%;
 	}
+	.text {
+		transform: translate(0%, -90px);;
+	}
 }
